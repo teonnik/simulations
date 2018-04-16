@@ -1,0 +1,16 @@
+{
+  "Matrix": "laplace3d",
+  "Domain partitions": [[0,50],[0,50],[0,50]],
+  "Initial guess": "zero",
+  "Exact solution": "white-noise sine",
+
+  "Iterant": "ablockjacobi",
+  "Tolerance": 0.001,
+  "Timeout [min]": 0.5,
+
+  "Block Iterant": "cg",
+  "Block Steps": 3,
+  "Block Max iterations": 9,
+  "Block Tolerance": 0.1,
+  "Block Timeout [min]": 0.05
+}

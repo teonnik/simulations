@@ -1,0 +1,12 @@
+{
+  "Matrix": "laplace3d",
+  "Domain partitions": [[0,50],[0,50],[0,50]],
+  "Initial guess": "zero",
+  "Exact solution": "white-noise sine",
+
+  "Iterant": "cg",
+  "Steps": 3,
+  "Max iterations": 10,
+  "Tolerance": 0.1,
+  "Timeout [min]": 0.5
+}
