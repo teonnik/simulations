@@ -1,0 +1,3 @@
+Device,Domain partitions,Exact solution,Executable name,Executable path,Info,Initial guess,Iterant,Matrix,Nodes,Processes,Processes grid,Processes per node,Rank,Relative error,Relative residual,Threads per process,Timeout [min],Timestamp,Tolerance
+julia,"[[0, 256], [0, 256], [0, 256]]",white-noise sine,example.laplace3d_ajacobi,~/asynchronator/build/example,SIAM,zero,ajacobi,laplace3d,1.0,1.0,"[1, 1, 1]",1.0,0.0,0.5504878884657239,0.00267372721409875,256.0,2.0,2018-04-26 11:03:24,0.0001
+julia,"[[0, 256], [0, 256], [0, 256]]",white-noise sine,example.laplace3d_ajacobi,~/asynchronator/build/example,SIAM,zero,ajacobi,laplace3d,1.0,1.0,"[1, 1, 1]",1.0,0.0,0.550960662579573,0.00214137808159109,256.0,2.0,2018-04-26 11:03:36,0.0001
